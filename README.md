@@ -135,6 +135,4 @@ opencv-python
 ## Author
 
 **Samra Mehmood**  
-BEE-61C, Military College of Signals, NUST  
-Intern — IoT & Embedded Systems  
 [GitHub](https://github.com/Samra761) · [LinkedIn](https://linkedin.com/in/samra-mehmood)
