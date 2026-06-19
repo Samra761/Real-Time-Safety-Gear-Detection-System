@@ -1,6 +1,6 @@
 # Real-Time Safety Gear Detection System
 
-A computer vision system that detects hard hats and safety vests on people using a live webcam feed. Built for the IoT & Embedded Systems intern assessment.
+A computer vision system that detects hard hats and safety vests on people using a live webcam feed. Built for the intern assessment.
 
 ---
 
@@ -8,7 +8,7 @@ A computer vision system that detects hard hats and safety vests on people using
 
 Construction sites and electrical grid stations require workers to wear PPE (Personal Protective Equipment) at all times. This system monitors a live camera feed and flags whether people in frame are wearing a hard hat and/or safety vest in real time.
 
-The use case is directly relevant to electrical utility environments — during my internship at IESCO (Islamabad Electric Supply Company), PPE compliance is a daily safety requirement at 132 KV grid stations.
+The use case is directly relevant to electrical utility environments, PPE compliance is a daily safety requirement at 132 KV grid stations.
 
 ---
 
@@ -16,7 +16,7 @@ The use case is directly relevant to electrical utility environments — during 
 
 **Target hardware:** Raspberry Pi 4 or equivalent single-board computer with camera module.
 
-**Substitution used:** Laptop with built-in webcam (ASUS/HP), running inference locally in real time via CPU.
+**Substitution used:** Laptop with built-in webcam (HP), running inference locally in real time via CPU.
 
 No dedicated edge hardware was available during development. The system runs entirely on-device with no cloud dependency and processes frames in real time, satisfying the edge inference requirement. The same code runs on a Raspberry Pi 4 with no changes other than setting `device="cpu"` in the training config, which is already the default.
 
