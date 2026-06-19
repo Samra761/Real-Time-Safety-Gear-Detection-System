@@ -13,7 +13,7 @@ if not os.path.exists(WEIGHTS):
     base = YOLO("yolov8n.pt")
     base.train(
         data=DATA_YAML,
-        epochs=3,
+        epochs=20,
         imgsz=640,
         device="cpu",  # change to 0 if you have a GPU
         project=".",
